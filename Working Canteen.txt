@@ -1,0 +1,36 @@
+http://localhost:8080/CanteenManagementProject/webapi/customer
+http://localhost:8080/CanteenManagementProject/webapi/customer/validate/prassucp/hexaware@
+http://localhost:8080/CanteenManagementProject/webapi/customer/searchcustomer/1
+
+
+http://localhost:8080/CanteenManagementProject/webapi/menu
+http://localhost:8080/CanteenManagementProject/webapi/menu/search/4
+
+
+http://localhost:8080/CanteenManagementProject/webapi/vendor
+http://localhost:8080/CanteenManagementProject/webapi/vendor/searchvendor/3
+http://localhost:8080/CanteenManagementProject/webapi/vendor/validate/anu56/bordia@123
+
+
+http://localhost:8080/CanteenManagementProject/webapi/wallet/walletid/2
+http://localhost:8080/CanteenManagementProject/webapi/wallet/cusid/2
+
+
+http://localhost:8080/CanteenManagementProject/webapi/order/set/2/2/DEBIT_CARD/3/2020-08-10/2
+http://localhost:8080/CanteenManagementProject/webapi/order/confirm/1/2/YES/Enjoy
+
+
+http://localhost:8080/CanteenManagementProject/webapi/order/customerhistory/1
+http://localhost:8080/CanteenManagementProject/webapi/order/vendorhistory/2
+
+
+
+
+
+curl -vvv -H "Accept:application/json" -X POST -H "Content-Type:application/json" "http://localhost:8080/CanteenManagementProject/webapi/vendor/validate/anu56/bordia@123"
+
+curl -vvv -H "Accept:application/json" -X POST -H "Content-Type:application/json" "http://localhost:8080/CanteenManagementProject/webapi/order/set/2/2/DEBIT_CARD/3/2020-08-11/2"
+
+curl -vvv -H "Accept:application/json" -X POST -H "Content-Type:application/json" "http://localhost:8080/CanteenManagementProject/webapi/order/confirm/1/2/YES/Enjoy"
+
+curl -vvv -H "Accept:application/json" -X POST -H "Content-Type:application/json" "http://localhost:8080/CanteenManagementProject/webapi/customer/validate/prassucp/hexaware@"
